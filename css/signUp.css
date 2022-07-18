@@ -1,0 +1,66 @@
+body{
+    font-family: 'Nunito Sans';
+}
+
+.auth{
+    background: url(../assets/Groupbg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.zwallet{
+    color: white;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 29px;
+    line-height: 40px;
+}
+
+.auth-form-wrapper{
+    padding-top: 150px;
+}
+
+.des{
+    color: rgba(255, 255, 255, 0.8);
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 33px;
+}
+
+.description{
+    max-width: 488px;
+    color: rgba(255, 255, 255, 0.8);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 23px;
+}
+
+.fw-input{
+    border: unset;
+    border-bottom: 1px solid gray;
+    border-radius: unset;
+
+}
+
+.fw-input:focus{
+    border-color: unset;
+    box-shadow: unset;
+}
+
+.fw-input-icon{
+    background: unset;
+    border: unset;
+    border-bottom: 1px solid gray;
+    border-radius: unset;
+}
+
+.fw-btn{
+    background: #DADADA;
+    border: unset;
+    min-height: 57px;
+}
+
+.fw-btn:hover{
+    background: #6379F4;
+}
