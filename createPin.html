@@ -1,14 +1,14 @@
 <!doctype html>
 <html lang="en">
   <head>
-    <title>signup</title>
+    <title>Create Pin</title>
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
     <!-- Bootstrap CSS v5.2.0-beta1 -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"  integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
-    <link rel="stylesheet" href="./css/signUp.css">
+    <link rel="stylesheet" href="./css/createPin.css">
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@700&display=swap');
         
@@ -16,7 +16,7 @@
   </head>
   <body>
       <div class="row min-vh-100 mw-100">
-          <div class="col-7 auth">
+          <div class="col-12 col-md-7 auth">
             <div class="ps-5 pt-5 zwallet">
                 <span>Zwallet</span>
             </div>
@@ -30,28 +30,38 @@
                 </div>
             </div>
           </div>
-          <div class="col-5 px-5 auth-form-wrapper d-flex flex-column gap-5">
-            <h3>Secure Your Account, Your Wallet,
-                and Your Data With 6 Digits PIN
-                That You Created Yourself.
-            </h3>
-            <p>Create 6 digits pin to secure all your money and your data in Zwallet app. Keep it secret and don't tell anyone about your Zwallet account password and the PIN.</p>
-            <div class="col-5 px-5 auth-form-wrapper d-flex flex-row gap-5">
-                <div>
-                    <input type="text" style="width: 100%; border: unset; border-bottom: 1px solid gray;">
-                </div><div>
-                    <input type="text" style="width: 100%; border: unset; border-bottom: 1px solid gray;">
-                </div><div>
-                    <input type="text" style="width: 100%; border: unset; border-bottom: 1px solid gray;">
-                </div><div>
-                    <input type="text" style="width: 100%; border: unset; border-bottom: 1px solid gray;">
-                </div><div>
-                    <input type="text" style="width: 100%; border: unset; border-bottom: 1px solid gray;">
-                </div><div>
-                    <input type="text" style="width: 100%; border: unset; border-bottom: 1px solid gray;">
+          <div class="col-12 col-md-5 px-5 auth-form-wrapper d-flex flex-column gap-5">
+            <div class="first">
+                <span class="secure">Secure Your Account, Your Wallet, and Your Data With 6 Digits PIN That You Created Yourself.
+                </span>
+            </div>
+            <div class="second">
+                <p class="create">Create 6 digits pin to secure all your money and your data in Zwallet app. Keep it secret and don’t tell anyone about your Zwallet account password and the PIN.</p>
+            </div>
+            <div class="d-flex flex-row gap-3 fw-input-pin">
+                <div class="d-flex align-items-center" style="border: 1px solid rgba(169, 169, 169, 0.6); border-radius: 10px; padding: 10px;">
+                    <input maxlength="1" type="text" style="font-size: 30px; text-align: center; width: 35px ; height: 65px; border: unset; border-bottom: 1px solid gray;">
+                </div>
+                <div class="d-flex align-items-center" style="border: 1px solid rgba(169, 169, 169, 0.6); border-radius: 10px; padding: 10px;">
+                    <input maxlength="1" type="text" style="font-size: 30px; text-align: center; width: 35px ; height: 65px; border: unset; border-bottom: 1px solid gray;">
+                </div>
+                <div class="d-flex align-items-center" style="border: 1px solid rgba(169, 169, 169, 0.6); border-radius: 10px; padding: 10px;">
+                    <input maxlength="1" type="text" style="font-size: 30px; text-align: center; width: 35px ; height: 65px; border: unset; border-bottom: 1px solid gray;">
+                </div>
+                <div class="d-flex align-items-center" style="border: 1px solid rgba(169, 169, 169, 0.6); border-radius: 10px; padding: 10px;">
+                    <input maxlength="1" type="text" style="font-size: 30px; text-align: center; width: 35px ; height: 65px; border: unset; border-bottom: 1px solid gray;">
+                </div>
+                <div class="d-flex align-items-center" style="border: 1px solid rgba(169, 169, 169, 0.6); border-radius: 10px; padding: 10px;">
+                    <input maxlength="1" type="text" style="font-size: 30px; text-align: center; width: 35px ; height: 65px; border: unset; border-bottom: 1px solid gray;">
+                </div>
+                <div class="d-flex align-items-center" style="border: 1px solid rgba(169, 169, 169, 0.6); border-radius: 10px; padding: 10px;">
+                    <input maxlength="1" type="text" style="font-size: 30px; text-align: center; width: 35px ; height: 65px; border: unset; border-bottom: 1px solid gray;">
                 </div>
             </div>
-          </div>
+            <div class="d-grid fw-btn">
+                <button type="button" class="btn btn-secondary">Confirm</button>
+            </div>
+        </div>
     </div>
     <!-- Bootstrap JavaScript Libraries -->
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js" integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk" crossorigin="anonymous"></script>
