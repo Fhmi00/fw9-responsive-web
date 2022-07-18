@@ -1,0 +1,118 @@
+body{
+    font-family: 'Nunito Sans';
+}
+h1{
+    font-style: normal;
+    font-weight: 800; 
+    font-size: 60px; 
+    line-height: 93px; 
+    padding-top: 60px;
+}
+p{
+    font-style: normal; 
+    font-weight: 400; 
+    font-size: 18px; 
+    line-height: 31px; 
+    color: #3A3D42;
+    padding-bottom: 40px;
+}
+
+.about{
+    text-align: center;
+}
+
+h3{
+    text-align: center;
+}
+
+.logo{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    min-width: 50px;
+    max-width: 100px;
+    padding-top: 20px;
+    
+}
+
+.pp{
+    text-align: center;
+    padding-left: 20px;
+    padding-right: 20px;
+    color: #3A3D42;
+}
+main{
+    display: flex;
+    justify-content:center;
+}
+
+.card1{
+
+}
+
+.supp{
+    padding: 30px;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.logo2{
+    margin: 10px 30px;
+}
+
+#trust{
+    max-width: 450px;
+    max-height: 250px;
+}
+
+#we{
+    max-width: 400px;
+}
+
+.card2{
+    background: rgba(71, 58, 209, 0.06);
+    display: flex;
+    justify-content:center;
+}
+
+.card3{
+    background: #FFFFFF;
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.05);
+    border-radius: 25px;
+    max-width: 700px;
+    min-width: 300px;
+    max-height: 107px;
+    min-height: 50px;
+    padding: 15px;
+    margin: 15px;
+}
+
+#features{
+    max-width: 500px;
+    min-width: 200px;
+
+}
+
+.h3{
+    text-align: left;
+}
+
+.card4{
+    display: flex;
+    justify-content: center;
+}
+
+.card5{
+    max-width: 406px;
+    max-height: 384px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.05);
+    border-radius: 25px;
+}
+
+.pprof{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}

@@ -5,39 +5,133 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Landing page v1</title>
+    <link rel="stylesheet" href="style.css">
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@700&display=swap');
+        
     </style>
 </head>
 <body>
-    <header>
-        <nav style="display: flex; justify-content: space-between; margin-left: 150px; margin-right: 150px;">
-            <div style=" margin-top: 63px;font-family: 'Nunito Sans', sans-serif; font-weight: 700; color: #6379F4; font-size: 29px;">
-                <span>Zwallet</span>
+    <header style="background-image: url(./assets/Mask\ Group.png); background-repeat: no-repeat; background-position: top right; background-size: 50%; padding: 55px 150px 0;">
+        <nav style="display: flex; justify-content: space-between;">
+            <div>
+                <span style=" font-weight: 700; font-size: 29px; line-height: 40px; color: #6379F4;">Zwallet</span>
             </div>
-            <div style="margin-top: 55px; display: flex; justify-content: space-between;">
-                <button style="background: #6379F4; border-color: #FFFFFF; box-shadow: 0px 6px 75px rgba(100, 87, 87, 0.05); border-radius: 12px; width: 120px; height: 48px;">
-                    Login
-                </button>
-                <button style="background: #FFFFFF; border-color: #FFFFFF; box-shadow: 0px 6px 75px rgba(100, 87, 87, 0.05); border-radius: 12px; width: 120px; height: 48px;">
-                    Sign Up
-                </button>
+            <div>
+                <button style="padding: 11px 37px 12px 36px;background: #6379F4;border: 2px solid #FFFFFF;box-shadow: 0px 6px 75px rgba(100, 87, 87, 0.05);border-radius: 12px; min-width: 100px;font-weight: 700; font-size: 18px; line-height: 24.55px; font-style: normal; color: #FFFFFF;">Login</button>
+                <button style="padding: 11px 27px 12px 26px;background: #FFFFFF;border: 2px solid #6379F4;box-shadow: 0px 6px 75px rgba(100, 87, 87, 0.05);border-radius: 12px; min-width: 100px;font-weight: 700; font-size: 18px; line-height: 24.55px; font-style: normal; color: #6379F4;">Register</button>
             </div>
         </nav>
-        <div>
-            <div style="font-family: 'Nunito Sans'; font-weight: 800; font-size: 60px; color: #3A3D42; margin-top: 244px; margin-left: 150px;">
-                Awesome App
-                For Saving  <span style="color: #6379F4;">Time.</span>
+        <div style="display: flex; justify-content: space-between;">
+            <div style="display: flex; max-width: 475px; flex-direction: column;">   
+                <h1 style="margin-top: 244px;font-style: normal; font-weight: 800;font-size: 60px; line-height: 93px;color: #3A3D42;">Awesome App For Saving <span style="color: #6379F4;">Time.</span></h1>
+                <p>We bring you a mobile app for banking problems that oftenly wasting much of your times.</p>
+                <div>
+                    <button style="padding: 16px 44px; background-color: #6379F4 ; border-radius: 12px;border-color: #6379F4;color: #FFFFFF; font-style: normal; font-weight: 700; font-size: 18px; line-height: 25px;">Try It Free</button>
+                </div>
             </div>
-            <div style="font-family: 'Nunito Sans'; font-weight: 400; font-size: 18px; margin-top: 40px; margin-left: 150px;">
-                We bring you a mobile app for banking problems that
-                oftenly wasting much of your times.
+            <div>
+                <img src="./assets/png-phone.png" style=" margin-right: 150px; margin-top: 150px;"/>
             </div>
-            <button style="background-color: #6379F4; border-radius: 12px; box-shadow: 0px 6px 75px rgba(100, 87, 87, 0.05); width: 173px; height: 57px; margin-left: 150px; margin-top: 50px; text-align: center; font-family: 'Nunito Sans'; font-weight: 700; font-size: 18px; color: #FFFFFF;">
-                Try It Free
-            </button>
-            <img src="./assets/Mask Group.png"/>
-        </div> 
+        </div>        
     </header>
+    <section style="background: rgba(71, 58, 209, 0.06); ">
+        <div>
+            <h1 class="about"><span style="color: #6379F4;">About</span> the Application.</h1>
+            <p class="pp">We have some great features from the application and it's totally free to use by all users around the world.</p>
+        </div>
+        <div style="display: flex;justify-content: space-between;margin: 50px 300px; padding-bottom: 100px;">
+            <div style="max-width: 367px; background-color: #FFFFFF;box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.05); border-radius: 25px;">
+                <img class="logo" src="./assets/telp.png">
+                <h3>24/7 Support</h3>
+                <p class="pp">We have 24/7 contact support so you can contact us whenever you want and we will respond it.</p>
+            </div>
+            <div style="max-width: 367px; background-color: #FFFFFF;box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.05); border-radius: 25px;">
+                <img class="logo" src="./assets/lock.png">
+                <h3>Data Privacy</h3>
+                <p class="pp">We make sure your data is safe in our database and we will encrypt any data you submitted to us.</p>
+            </div>
+            <div style="max-width: 367px; background-color: #FFFFFF;box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.05); border-radius: 25px;">
+                <img class="logo" src="./assets/download (2).png">
+                <h3>Easy Download</h3>
+                <p class="pp">Zwallet is 100% totally free to use it's now available on Google Play Store and App Store.</p>
+            </div>
+        </div>
+    </section>
+    <main>
+        <div style="padding-left: 150px;">
+            <h1 id="trust">100+ <span style="color: #6379F4;"> Trusted</span> Partners.</h1>
+            <p id="we">We have reached global level and have 100+ brand partners around the globe.</p>
+        </div>
+        <div class="card1">
+            <div class="supp">
+                <div>
+                    <img class="logo2" src="./assets/logo 1.png">
+                </div>
+                <div>
+                    <img class="logo2" src="./assets/g9.png">
+                </div>
+                <div>
+                    <img class="logo2" src="./assets/Groupdell.png">
+                </div>
+            </div>
+            <div class="supp">
+                <div>
+                    <img class="logo2" src="./assets/Group 20microsoft.png">
+                </div>
+                <div>
+                    <img class="logo2" src="./assets/Group 19dropbox.png">
+                </div>
+                <div>
+                    <img class="logo2" src="./assets/g45263h&m.png">
+                </div>
+            </div>
+        </div>
+    </main>
+    <section class="card2">
+        <div>
+            <img src="./assets/png-phone2.png" alt="">
+        </div>
+        <div>
+            <h1 id="features">All The<span style="color: #6379F4;"> Great</span> Zwallet Features.</h1>
+            <div>
+                <div class="card3">
+                    <h3 class="h3"><span style="color: #6379F4;">1. </span> Small Fee</h3>
+                    <p>We only charge 5% of every success transaction done in Zwallet app.</p>
+                </div>
+                <div class="card3">
+                    <h3 class="h3"><span style="color: #6379F4;">2. </span> Data Secured</h3>
+                    <p>All your data is secured properly in our system and it's encrypted.</p>
+                </div>
+                <div class="card3">
+                    <h3 class="h3"><span style="color: #6379F4;">3. </span> User Friendly</h3>
+                    <p>Zwallet come up with modern and sleek design and not complicated.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section>
+        <div>
+            <h1>What Users are Saying.</h1>
+            <p>We have some great features from the application and it's totally free to use by all users around the world.</p>
+        </div>
+        <div class="card4">
+            <div class="card5">
+                <img class="pprof" src="./assets/1.png" alt="">
+                <h3>Sherina Chaw</h3>
+                <p>“I use this app since 2 years ago and this is the best app that I've ever use in my entire life”</p>
+            </div>
+            <div class="card5">
+                <img class="pprof" src="./assets/2.png" alt="">
+                <h3>Jessica Mera</h3>
+                <p>“I use Zwallet to manage all financial needs. It's super easy to use and it's 100% free app”</p>
+            </div>
+            <div class="card5">
+                <img class="pprof" src="./assets/3.png" alt="">
+                <h3>Robert Chandler</h3>
+                <p>“Since I'm using this app, I'm not going to move to another similar app. Thank you Zwallet!”</p>
+            </div>
+        </div>
+    </section>
 </body>
 </html>
