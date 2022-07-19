@@ -109,10 +109,77 @@ main{
     background: #FFFFFF;
     box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.05);
     border-radius: 25px;
+    padding: 30px;
 }
 
 .pprof{
     display: block;
     margin-left: auto;
     margin-right: auto;
+} 
+
+.what{
+    font-style: normal;
+    font-weight: 800;
+    font-size: 60px;
+    line-height: 93px;
+    text-align: center;
+}
+
+.last{
+    max-width: 664px;
+    text-align: center;
+    position:relative;
+    padding-left: 600px;
+    padding-top: 50px;
+}
+
+.we{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 31px;
+    text-align: center;
+    color: #3A3D42;
+}
+
+.cardFooter{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 40px;
+}
+
+.contact{
+    display: flex;
+    justify-content: space-between;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 28px;
+    color: #EFEFEF;
+}
+
+.no{
+    padding-right: 50px;
+}
+
+.zfooter{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    color: rgba(239, 239, 239, 0.9);
+}
+
+.done{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 49px;
+    color: #FFFFFF;
+}
+
+.simply{
+    max-width: 300px;
+    
 }
