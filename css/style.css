@@ -59,8 +59,13 @@ body{
     background: #DADADA;
     border: unset;
     min-height: 57px;
+    min-width: 500px;
 }
 
 .fw-btn:hover{
     background: #6379F4;
+}
+
+.start{
+    max-width: 600px;
 }

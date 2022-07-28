@@ -1,0 +1,228 @@
+
+.logo{
+    font-style: normal;
+font-weight: 700;
+font-size: 29px;
+line-height: 40px;
+/* identical to box height */
+
+
+/* Zwallet/Primary */
+
+color: #6379F4;
+}
+
+.robe-chand{
+    font-style: normal;
+font-weight: 700;
+font-size: 18px;
+line-height: 31px;
+/* identical to box height, or 172% */
+
+text-align: center;
+
+color: #3A3D42;
+}
+
+.phone{
+    font-style: normal;
+font-weight: 400;
+font-size: 13px;
+line-height: 24px;
+/* identical to box height, or 185% */
+
+
+color: rgba(58, 61, 66, 0.9);
+}
+
+.prof{
+    margin-top: 10px;
+}
+
+.sidebar{
+    padding-top: 50px;
+    margin-left: 180px;
+    justify-content: space-between;
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 31px;
+    color: #3A3D42CC;
+    text-decoration: none;
+}
+
+.bal{
+    font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 31px;
+/* identical to box height, or 172% */
+
+
+color: #E0E0E0;
+}
+
+.rp{
+    font-style: normal;
+font-weight: 700;
+font-size: 40px;
+line-height: 55px;
+/* identical to box height */
+
+
+color: #FFFFFF
+}
+
+.no-hp1{
+    font-style: normal;
+font-weight: 600;
+font-size: 14px;
+line-height: 19px;
+/* identical to box height */
+
+
+color: #DFDCDC;
+}
+
+.btn1{
+    background: rgba(255, 255, 255, 0.2);
+/* White */
+
+border: 1px solid #FFFFFF;
+border-radius: 10px;
+font-style: normal;
+font-weight: 700;
+font-size: 18px;
+line-height: 25px;
+/* identical to box height */
+
+
+/* Zwallet/White */
+
+color: #FFFFFF;
+}
+
+.inc{
+    font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 19px;
+color: #6A6A6A;
+padding-top: 10px;
+}
+
+.rp2{
+    font-style: normal;
+font-weight: 700;
+font-size: 18px;
+line-height: 25px;
+/* identical to box height */
+
+
+/* Zwallet/Dark */
+
+color: #3A3D42;
+}
+
+.trans-his{
+    font-style: normal;
+font-weight: 700;
+font-size: 18px;
+line-height: 25px;
+/* identical to box height */
+
+
+/* Zwallet/Dark */
+
+color: #3A3D42;
+}
+
+.see-all{
+    font-style: normal;
+font-weight: 600;
+font-size: 14px;
+line-height: 19px;
+/* identical to box height */
+
+
+/* Zwallet/Primary */
+
+color: #6379F4
+}
+
+.pp1{
+    max-width: 65px;
+    max-height: 65px;
+}
+
+.obj1{
+    font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 22px;
+/* identical to box height */
+
+
+color: #4D4B57;
+}
+
+.trans-type1{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    /* identical to box height */
+    
+    
+    color: #7A7886;
+}
+
+.rp3{
+    font-style: normal;
+font-weight: 700;
+font-size: 20px;
+line-height: 22px;
+text-align: right;
+
+color: #1EC15F;
+}
+
+.rp4{
+    font-style: normal;
+font-weight: 700;
+font-size: 20px;
+line-height: 22px;
+text-align: right;
+
+/* Zwallet/Error */
+
+color: #FF5B37;
+}
+
+.footer-home-zwallet{
+    justify-content: space-between; 
+    background: #6379F4;
+}
+
+.footer-home-zwallet-cr{
+    font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 28px;
+/* identical to box height, or 175% */
+
+
+color: rgba(239, 239, 239, 0.9);
+}
+
+.home-last{
+    font-style: normal;
+font-weight: 600;
+font-size: 16px;
+line-height: 28px;
+/* identical to box height, or 175% */
+
+
+color: #EFEFEF;
+}
